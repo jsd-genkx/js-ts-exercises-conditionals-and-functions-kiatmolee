@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "target": "esnext",
+        "module": "esnext",
+        "moduleResolution": "bundler",
+        "strict": true, //enable all strict type-checking options
+        //"rootDir": "src", //specify the root folder of your source files
+        "esModuleInterop": true,
+       // "outDir": "./dist" //folder to store compiled files
+    }
+    //"include": ["src"]
+}
