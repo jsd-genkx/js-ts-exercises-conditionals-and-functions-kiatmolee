@@ -6,16 +6,19 @@
 
 // TODO BONUS: Rewrite with if
 
-const num = 20;
-if(num%3 === 0 && num%5 ===0){
-    console.log("FizzBuzz")
+let num = 100;
+if(num === 0){
+    console.log(`${num} is not acceptable`)
+}
+else if((num%3 === 0) && (num%5 ===0)){
+    console.log(`${num} is FizzBuzz`)
 }
 else if(num%3 === 0)
 {
-    console.log("Fizz")
+    console.log(`${num} is Fizz`)
 }
 else if(num%5 ===0){
-    console.log("Buzz")
+    console.log(`${num} is Buzz`)
 }
 else {
     console.log("Not divisible by 3 or 5")
